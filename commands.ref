@@ -6,3 +6,10 @@ sudo apt install docker.io -y
 sudo snap install docker
 sudo systemctl status docker
 docker --version
+
+
+
+docker images
+docker pull hello-world
+docker images
+docker pull busybox
