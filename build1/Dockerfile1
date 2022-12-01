@@ -1,0 +1,4 @@
+FROM busybox
+COPY sample1.txt /
+RUN mkdir /Harshitha
+COPY sample1.txt /Harshitha
